@@ -1,0 +1,16 @@
+ssh_user: ubuntu
+
+nodes:
+  node1: 10.10.6.192
+  node2: 10.10.5.194
+  node3: 10.10.1.107
+
+ceph:
+  mon_ip: 10.10.6.192
+  pool_name: rbd_pool
+  pg_num: 32
+
+osd_devices:
+  node1: /dev/vdb
+  node2: /dev/vdb
+  node3: /dev/vdb
